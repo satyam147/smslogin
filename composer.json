@@ -7,6 +7,13 @@
             "Satyam147\\Smslogin\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Satyam147\\Smslogin\\SmsLoginServiceProvider"
+            ]
+        }
+    },
     "authors": [
         {
             "name": "Dasari Satyam",
