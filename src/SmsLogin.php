@@ -26,7 +26,7 @@ class SmsLogin
     /**
      * @throws ConnectionException
      */
-    private function sendSms(array|string $mobile, string $message, string $templateId): PromiseInterface|Response
+    public function sendSms(array|string $mobile, string $message, string $templateId): PromiseInterface|Response
     {
         if (is_array($mobile)) {
             $mobile = implode(',', $mobile);
